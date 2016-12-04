@@ -1,0 +1,13 @@
+/.idea/
+
+build
+/js/lib/
+/node_modules/
+
+/dist/
+/dist@cdn/
+/dist@desktop/
+
+/npm-debug.log
+
+.DS_Store
