@@ -4,7 +4,7 @@ const querystring = require('querystring');
 
 const botConfig = {
     // 创建机器人时获取的 API key
-    token: "253703:834f675e64b925513d754934afcd4a59",
+    token: "*******************************",
     host: "botapi.chaoxin.com",
     method: '/sendTextMessage'
 };
@@ -16,7 +16,7 @@ const serverOptions = {
 
 
 // 填写 url 后,下载对应的验证文件
-const verifyFilePath = './verify-f921c05742cc093513023068a494.txt';
+const verifyFilePath = './verify-*********************.txt';
 
 
 const server = https.createServer(serverOptions, ServerRequestListener);
